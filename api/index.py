@@ -7,7 +7,11 @@ app = Flask(__name__)
 
 os.environ.get("REPLICATE_API_TOKEN")
 
-@app.route('/')
+@app.route("/")
+def index():
+    return "This is an alt tag generator!"
+
+@app.route('/generate')
 def home():
   # Get imageUrl query param
   args = request.args
