@@ -28,3 +28,8 @@ Go to the link below in your browser or run a curl command in your terminal.
 ```bash
 curl http://localhost:3000/generate?imageUrl=https://dub.sh/confpic
 ```
+
+## Todo
+
+- [ ] Add an examples section to the README. Either a diagram or some actual examples with what it returns
+- [ ] Make a quick video and write up a tweet to post this
