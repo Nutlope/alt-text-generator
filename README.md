@@ -7,7 +7,10 @@ This project uses an ML modal called [BLIP](https://github.com/salesforce/BLIP) 
 For example, try running this in your terminal. It sends a request to this python serverless function on Vercel with an image passed as a query parameter.
 
 ```bash
-curl http://localhost:3000/generate?imageUrl=https://res.cloudinary.com/dffajvipu/image/upload/v1667268904/nextjsconf-pics/2022_Vercel_Next_Conference-85_mipfdg.jpg
+curl https://alt-text-generator.vercel.app/generate\?imageUrl\=https://dub.sh/confpic
+curl https://alt-text-generator.vercel.app/generate\?imageUrl\=https://res.cloudinary.com/dffajvipu/image/upload/v1667421698/nextjsconf-pics/Sexton_Vercel_0574_r8iabf.jpg
+
+
 ```
 
 ## Running Locally
