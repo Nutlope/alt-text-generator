@@ -2,7 +2,7 @@
 
 This project will generate relevant alt text for images using AI.
 
-![Alt Image Generator](public/ogimage2.png)
+![Alt Image Generator](ogimage.png)
 
 ## How it works
 
