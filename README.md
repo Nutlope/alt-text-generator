@@ -31,5 +31,8 @@ curl http://localhost:3000/generate?imageUrl=https://dub.sh/confpic
 
 ## Todo
 
-- [ ] Add an examples section to the README. Either a diagram or some actual examples with what it returns
-- [ ] Make a quick video and write up a tweet to post this
+- [ ] Add an examples section to the README with some actual examples with what it returns
+- [ ] Add a clone and deploy button to Vercel
+- [ ] Make a quick video where I simply show my terminal and curling two images
+- [ ] Write a tweet to post this: "I built an image to text API! It takes in an image and outputs a 1 sentence description of it. Very useful for things like generating alt tags. Second link with a GitHub link to the examples to clone & deploy it, and mention we're going to use with image gallery"
+- [ ] [Maybe] Make a "how I built an alt image generator API in 60 seconds" or "how I built an image -> text API in 2 minutes"
