@@ -1,6 +1,6 @@
 # Alt Image Generator
 
-This Flask API will generate relevant alt text for images using AI.
+This Flask API will generate a description for any image using AI.
 
 ![Alt Image Generator](ogimage.png)
 
