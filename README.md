@@ -1,12 +1,12 @@
 # Alt Image Generator
 
-This project will generate relevant alt text for images using AI.
+This Flask API will generate relevant alt text for images using AI.
 
 ![Alt Image Generator](ogimage.png)
 
 ## How it works
 
-This project uses an ML modal from Salesforce called [BLIP](https://github.com/salesforce/BLIP) on [Replicate](https://replicate.com/) to generate relevant alt text for images. You can feed the API, written in Python on Flask, an image as a query param and it will return a one sentence description of that image.
+This project uses an ML modal from Salesforce called [BLIP](https://github.com/salesforce/BLIP) on [Replicate](https://replicate.com/) to generate relevant alt text for images. You can feed the Flask API endpoint an image as a query param and it will return a one sentence description of that image.
 
 ## Running Locally
 
@@ -25,8 +25,6 @@ To use the API route, go to the link below in your browser or run a curl command
 curl http://localhost:3000/generate?imageUrl=https://dub.sh/confpic
 ```
 
-## One-Click Deploy
+## Deploying
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=vercel-examples):
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fvercel%2Fexamples%2Ftree%2Fmain%2Fpython%2FgenerateAltTags)
+Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=vercel-examples).

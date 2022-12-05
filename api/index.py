@@ -4,7 +4,6 @@ import replicate
 from flask import Flask, request
 
 app = Flask(__name__)
-
 os.environ.get("REPLICATE_API_TOKEN")
 
 @app.route("/")
