@@ -26,9 +26,3 @@ To use the API route, go to the link below in your browser or run a curl command
 ```bash
 curl http://localhost:3000/generate?imageUrl=https://dub.sh/confpic
 ```
-
-## Deploying
-
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme).
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/nutlope/alt-text-generator&env=REPLICATE_API_KEY&project-name=alt-tag-generator&repo-name=alt-tag-generator)
